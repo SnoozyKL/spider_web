@@ -1,0 +1,14 @@
+body {
+  /*background-image: url(pics/abstract.png);*/
+  background-size: auto;
+}
+
+.menu_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_bar li {
+  display: inline;
+}
