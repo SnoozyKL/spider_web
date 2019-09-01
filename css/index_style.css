@@ -12,3 +12,12 @@ body {
 .menu_bar li {
   display: inline;
 }
+
+.intro {
+  font-style: italic;
+}
+
+p img {
+  width: 200px;
+  height: 300px;
+}
