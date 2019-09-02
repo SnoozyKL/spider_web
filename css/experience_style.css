@@ -1,14 +1,56 @@
 body {
-  /*background-image: url(pics/abstract.png);*/
+  background-image: url(pics/abstract.png);
   background-size: auto;
 }
 
 .menu_bar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  position: sticky;
 }
 
-.menu_bar li {
-  display: inline;
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+.intro {
+  font-style: italic;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+p img {
+  width: 180px;
+  height: 200px;
+  padding: 20px
+}
+
+h1 {
+  font-family: sans-serif;
+  padding-top: 5px;
 }
