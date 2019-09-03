@@ -3,6 +3,12 @@ body {
   background-size: auto;
 }
 
+.header h1 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
 .menu_bar {
   list-style-type: none;
   margin-left: 100px;
