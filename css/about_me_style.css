@@ -36,7 +36,7 @@ li a {
 }
 
 li a:hover {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .intro {
@@ -59,4 +59,41 @@ p img {
 h1 {
   font-family: sans-serif;
   padding-top: 5px;
+}
+
+.footer {
+  font-style: arial;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.footer h3 {
+  text-decoration-line: underline;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  font-size: 15px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+li img {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

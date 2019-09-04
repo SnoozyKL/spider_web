@@ -44,8 +44,13 @@ li a {
   font-style: oblique;
 }
 
+/*
 .top_pad li a:hover {
   background-color: gray;
+}
+*/
+li a:hover {
+  background-color: lightgray;
 }
 
 .intro {
