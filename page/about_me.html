@@ -5,6 +5,12 @@
   <link rel = "stylesheet"
     type = "text/css"
     href = "../css/about_me_style.css" />
+    <script type="text/javascript">
+      function onClick() {
+        var x = document.getElementById("currentdate");
+        x.innerHTML = Date();
+      }
+    </script>
 </head>
 <body>
 
@@ -26,7 +32,12 @@
     <p>Hello, my name is Kevin Lee</p>
     <p>I graduated from the University of Houston with a bachelor's degree in Computer Information Systems.</p>
     <p>Here are a list of skills I have learned</p>
+    <div class="today">
+      <button type="button" onclick="onClick()">Today's Date</button>
+    </div>
+    <p id="currentdate">Current Date!</p>
   </div>
+
 
   <div class="footer">
     <h3>Contact Information</h3>
