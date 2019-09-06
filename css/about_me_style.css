@@ -1,6 +1,13 @@
 body {
   background-image: url(pics/abstract.png);
+  background-size: cover;
   background-size: auto;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 90%;
 }
 
 .header h1 {
@@ -14,7 +21,10 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   padding: 15px;
+  /*
   background-color: white;
+  */
+  background-color: #3a3b4a;
   border-radius: 10px;
   overflow: hidden;
   position: sticky;
@@ -27,7 +37,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 5px 10px;
   text-decoration: none;
@@ -36,17 +46,29 @@ li a {
 }
 
 li a:hover {
+  background-image: url(pics/abstract.png);
+  background-size: cover;
+  /*
   background-color: lightgray;
+  */
+  /*
+  background-color: black;*/
 }
 
 .intro {
   font-style: italic;
-  background-color: white;
+  background-color: #3a3b4a;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 8px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.links {
+  color: #b8bdff;
 }
 
 
@@ -63,7 +85,7 @@ h1 {
 
 .footer {
   font-style: arial;
-  background-color: white;
+  background-color: #3a3b4a;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 8px;
@@ -72,13 +94,14 @@ h1 {
   padding-top:5px;
   padding-bottom: 5px;
   overflow: hidden;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   position: fixed;
 }
 
 .footer h3 {
   text-decoration-line: underline;
+  color: white;
 }
 
 .footer ul {
@@ -89,11 +112,13 @@ h1 {
   font-size: 15px;
   padding-left: 0px;
   padding-right: 10px;
+  color: white;
 }
 
 li img {
-  width: 20px;
-  height: 20px;
+  border-radius: 35%;
+  width: 25px;
+  height: 25px;
   padding-left: 10px;
   padding-right: 10px;
 }
