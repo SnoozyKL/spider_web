@@ -87,7 +87,13 @@ li a:hover {
   padding-left: 40px;
 }
 
+.applications td {
+  padding-left: 40px;
+}
 
+.platforms td {
+  padding-left: 40px;
+}
 
 .links {
   color: #b8bdff;
