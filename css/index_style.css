@@ -1,9 +1,10 @@
 body {
   background-image: url(pics/abstract.png);
   background-size: cover;
+  /*
   background-position: center;
-  background-repeat: no-repeat;
-  /*background-size: auto;*/
+  background-repeat: no-repeat;*/
+  background-size: auto;
 }
 
 body, html {
@@ -94,7 +95,7 @@ h1 {
   padding-top:5px;
   padding-bottom: 5px;
   overflow: hidden;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   position: fixed;
 }
