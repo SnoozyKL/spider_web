@@ -46,13 +46,12 @@ li a {
 }
 
 li a:hover {
+  /*
   background-image: url(pics/abstract.png);
   background-size: cover;
-  /*
   background-color: lightgray;
   */
-  /*
-  background-color: black;*/
+  background-color: black;
 }
 
 .intro {
