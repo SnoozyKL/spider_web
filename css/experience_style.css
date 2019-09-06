@@ -1,6 +1,26 @@
 body {
   background-image: url(pics/abstract.png);
+  background-size: cover;
+  /*
+  background-position: center;
+  background-repeat: no-repeat;*/
   background-size: auto;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 90%;
+}
+
+.header {
+ /*background-image: url(pics/abstract.png);*/
+}
+
+.header h1 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
 }
 
 .menu_bar {
@@ -8,20 +28,28 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   padding: 15px;
+  /*
   background-color: white;
+  */
+  background-color: #3a3b4a;
   border-radius: 10px;
   overflow: hidden;
   position: sticky;
 }
 
-li {
+/*
+.menu_bar li {
+  display: inline;
+}
+
+*/
+.menu_bar li {
   float: left;
 }
 
-
-li a {
+.menu_bar li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 5px 10px;
   text-decoration: none;
@@ -29,28 +57,110 @@ li a {
   font-style: oblique;
 }
 
-li a:hover {
+/*
+.top_pad li a:hover {
   background-color: gray;
+}
+*/
+li a:hover {
+  /*
+  background-image: url(pics/abstract.png);
+  background-size: cover;
+  background-color: lightgray;
+  */
+  background-color: black;
 }
 
 .intro {
   font-style: italic;
-  background-color: white;
+  background-color: #3a3b4a;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 8px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 20px;
+  color: white;
 }
 
+.intro p {
+  padding-left: 10px;
+}
 
-p img {
-  width: 180px;
+.intro h3 {
+  padding-left: 10px;
+}
+
+.intro ul li {
+  padding-left: 10px;
+}
+
+.programming td {
+  padding-left: 40px;
+}
+
+.applications td {
+  padding-left: 40px;
+}
+
+.platforms td {
+  padding-left: 40px;
+}
+
+.links {
+  color: #b8bdff;
+}
+
+.intro p img {
+  width: 197px;
   height: 200px;
+  /*
   padding: 20px
+  */
 }
 
 h1 {
   font-family: sans-serif;
   padding-top: 5px;
+}
+
+.footer {
+  font-style: arial;
+  background-color: #3a3b4a;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+  bottom: 10px;
+  right: 0;
+  position: fixed;
+}
+
+.footer h3 {
+  text-decoration-line: underline;
+  color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  font-size: 15px;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: white;
+  float: left;
+}
+
+li img {
+  border-radius: 35%;
+  width: 25px;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

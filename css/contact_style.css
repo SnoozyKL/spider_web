@@ -1,6 +1,9 @@
 body {
   background-image: url(pics/abstract.png);
   background-size: cover;
+  /*
+  background-position: center;
+  background-repeat: no-repeat;*/
   background-size: auto;
 }
 
@@ -8,6 +11,10 @@ body, html {
   margin: 0;
   padding: 0;
   height: 90%;
+}
+
+.header {
+ /*background-image: url(pics/abstract.png);*/
 }
 
 .header h1 {
@@ -30,6 +37,12 @@ body, html {
   position: sticky;
 }
 
+/*
+.menu_bar li {
+  display: inline;
+}
+
+*/
 .menu_bar li {
   float: left;
 }
@@ -44,6 +57,11 @@ body, html {
   font-style: oblique;
 }
 
+/*
+.top_pad li a:hover {
+  background-color: gray;
+}
+*/
 li a:hover {
   /*
   background-image: url(pics/abstract.png);
@@ -65,10 +83,13 @@ li a:hover {
   color: white;
 }
 
+.communication li {
+    list-style-type: none;
+}
+
 .links {
   color: #b8bdff;
 }
-
 
 .intro p img {
   width: 197px;
