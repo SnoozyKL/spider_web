@@ -91,8 +91,8 @@ li a:hover {
   color: #b8bdff;
 }
 
-p img {
-  width: 180px;
+.intro p img {
+  width: 197px;
   height: 200px;
   /*
   padding: 20px
