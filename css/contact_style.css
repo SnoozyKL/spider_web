@@ -43,11 +43,11 @@ body, html {
 }
 
 */
-li {
+.menu_bar li {
   float: left;
 }
 
-li a {
+.menu_bar li a {
   display: block;
   color: white;
   text-align: center;
@@ -81,6 +81,10 @@ li a:hover {
   padding-right: 10px;
   padding-bottom: 20px;
   color: white;
+}
+
+.communication li {
+    list-style-type: none;
 }
 
 .links {
@@ -130,6 +134,7 @@ h1 {
   padding-left: 0px;
   padding-right: 10px;
   color: white;
+  float: left;
 }
 
 li img {

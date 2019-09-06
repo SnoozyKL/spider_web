@@ -83,6 +83,18 @@ li a:hover {
   color: white;
 }
 
+.intro p {
+  padding-left: 10px;
+}
+
+.intro h3 {
+  padding-left: 10px;
+}
+
+.intro ul li {
+  padding-left: 10px;
+}
+
 .programming td {
   padding-left: 40px;
 }
@@ -142,6 +154,7 @@ h1 {
   padding-left: 0px;
   padding-right: 10px;
   color: white;
+  float: left;
 }
 
 li img {
