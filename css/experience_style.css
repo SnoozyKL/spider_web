@@ -43,11 +43,11 @@ body, html {
 }
 
 */
-li {
+.menu_bar li {
   float: left;
 }
 
-li a {
+.menu_bar li a {
   display: block;
   color: white;
   text-align: center;
@@ -82,6 +82,12 @@ li a:hover {
   padding-bottom: 20px;
   color: white;
 }
+
+.programming td {
+  padding-left: 40px;
+}
+
+
 
 .links {
   color: #b8bdff;
