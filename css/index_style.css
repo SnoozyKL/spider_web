@@ -7,11 +7,18 @@ body {
   background-size: auto;
 }
 
+
 body, html {
   margin: 0;
   padding: 0;
   height: 90%;
 }
+
+/*
+html {
+  margin: 0;
+}
+*/
 
 .header {
  /*background-image: url(pics/abstract.png);*/
