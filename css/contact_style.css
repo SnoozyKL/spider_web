@@ -69,6 +69,7 @@ li a:hover {
   background-color: lightgray;
   */
   background-color: black;
+  border-radius: 10px;
 }
 
 .intro {
