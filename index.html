@@ -8,7 +8,6 @@
     <link rel = "stylesheet"
       type = "text/css"
       href = "css/index_style.css?v=1.1.9" />
-      <script src="../js/index.js"></script>
 </head>
 <body>
   <div class="header">
@@ -28,7 +27,7 @@
     <h1>Kevin's Portfolio</h1>
     <p>Hello! I am Kevin and this is my Web Portfolio</p>
     <p>You can check out my Facebook profile with the link or my picture. <a class="links" href="https://www.facebook.com/SnoozyKL">Kevin's Facebook</a></p>
-    <p><a href="https://www.facebook.com/SnoozyKL"><img src="css/pics/profile1.jpg" alt="Profile"></a></p>
+    <p id="pic1"><a href="https://www.facebook.com/SnoozyKL"><img src="css/pics/profile1.jpg" alt="Profile"></a></p>
   </div>
 
   <div class="footer">
@@ -41,5 +40,26 @@
         </li>
     </ul>
 </div>
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $("#pic1").hide(300).show(1000).hide(300).show(200);
+
+  });
+</script>
+
+
+
+
+
+
 </body>
 </html>
