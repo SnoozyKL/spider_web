@@ -50,10 +50,13 @@
 <script src="js/jquery-3.4.1.js"></script>
 
 <script>
-  $(document).ready(function() {
-    $("#pic1").hide(300).show(1000).hide(300).show(200);
+  //$(document).ready(function() { //means wait for my document to fully load, then start runing stuff
+    //$("#pic1").hide(300).show(1000).hide(300).show(200);
+  //});
 
-  });
+  $(function() {//Shorter way of .ready function
+    $("#pic1").toggle(1000).toggle(1000);
+});
 </script>
 
 
