@@ -50,11 +50,9 @@
 <script src="js/jquery-3.4.1.js"></script>
 
 <script>
-$(document).ready(function(){
-  $("pic1").mouseenter(function(){
-
+  $("pic1").hover(function(){
+    $("pic1").fadeOut("slow");
   })
-})
   //$(document).ready(function() { //means wait for my document to fully load, then start runing stuff
     //$("#pic1").hide(300).show(1000).hide(300).show(200);
   //});
