@@ -79,6 +79,18 @@ li a:hover {
   color: white;
 }
 
+.jsdate {
+  font-style: italic;
+  background-color: #3a3b4a;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: white;
+}
+
 .links {
   color: #b8bdff;
 }
